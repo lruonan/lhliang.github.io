@@ -15,6 +15,3 @@ title: About
 > 一起交流，一起分享，一起进步。  
 > Mail: 570137843@qq.com
 
-#### This blog is powered by
-> Blog-aware, static site generator by [Jekyll][1] and [Bootstrap][2].  
-> Powered by [Github Pages][3].
