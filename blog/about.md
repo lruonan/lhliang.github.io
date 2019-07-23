@@ -8,12 +8,12 @@ title: About
 
 
 #### 关于作者 / About me
-> 姓名: 齐占明  
-> 在北京工作，计算机行业，性格随和，难道是因为我老了……
+> 姓名: 刘洪亮  
+> 在北京工作，计算机行业……
 
 #### 联系作者 / Contact me
 > 一起交流，一起分享，一起进步。  
-> Mail: zhanming.qi AT qq DOT com.
+> Mail: 570137843@qq.com
 
 #### This blog is powered by
 > Blog-aware, static site generator by [Jekyll][1] and [Bootstrap][2].  
@@ -25,7 +25,7 @@ title: About
 > Icons from [Glyphicons Free][6], licensed under [CC BY 3.0][5]. 
 
 
-[0]: http://qizhanming.com
+[0]: http://lhliang.com
 [1]: https://github.com/mojombo/jekyll
 [2]: http://twitter.github.com/bootstrap/
 [3]: http://pages.github.com
