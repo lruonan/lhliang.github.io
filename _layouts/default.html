@@ -26,31 +26,31 @@
       <div class="navbar-header">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".header-navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
-	  <span class="icon-bar"></span>
-	  <span class="icon-bar"></span>
-	  <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/">{{ site.title}}</a>
       </div>
       <nav class="collapse navbar-collapse header-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           {% if page.navigation %}<li><a href="/">最新文章</a></li>{% else %}<li class="active"><a href="/">最新文章</a></li>{% endif%}
-	  {% if page.navigation == "Archives" %}<li class="active"><a href="/archives">文章列表</a></li>{% else %}<li><a href="/archives">文章列表</a></li>{% endif %}
-	  {% if page.navigation == "About" %}<li class="active"><a href="/about">关于站长</a></li>{% else %}<li><a href="/about">关于站长</a></li>{% endif %}
+          {% if page.navigation == "Archives" %}<li class="active"><a href="/archives">文章列表</a></li>{% else %}<li><a href="/archives">文章列表</a></li>{% endif %}
+          {% if page.navigation == "About" %}<li class="active"><a href="/about">关于站长</a></li>{% else %}<li><a href="/about">关于站长</a></li>{% endif %}
           <li><a href="https://lhliang.com">联系站长</a></li>
         </ul>
       </nav>
     </div>
   </div>
 <div class="container">
-	{{content}}
+  {{content}}
 </div>
 </div>
 </div>
 <div class="footer">
-    <p>
-      <span>&copy; 2018 - {{ site.time | date: "%Y" }} {{ site.domain.name }}</span>
-    </p>
+  <p>
+    <span>&copy; 2018 - {{ site.time | date: "%Y" }} {{ site.domain.name }}</span>
+  </p>
 </div>
 <script type="text/javascript" charset="utf-8" src='/assets/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 <script type="text/javascript" charset="utf-8" src='/assets/app/js/app.js'> </script>
