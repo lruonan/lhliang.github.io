@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 刘洪亮的博客
+title: 洪亮的博客
 email: 57013743.com
 description: > # this means to ignore newlines until "baseurl:"
   This blog is mainly about my learning experience, 
@@ -80,8 +80,8 @@ context: /blog
 
 author:
   name: liu hongliang
-  email: lhliang@lhliang.com
-  github: lhliang1
+  email: 570137843@qq.com
+  github: liuhliu
 
 # All specific configurations are namespaced into this hash
 #
@@ -111,4 +111,4 @@ addons:
   tags_uri : /blog/tags
 
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme
