@@ -1,2 +1,1 @@
-# hongliang blog
-# https://lhliang.com
+# hello word
