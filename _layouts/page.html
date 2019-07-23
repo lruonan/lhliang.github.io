@@ -7,7 +7,7 @@ layout: default
 		{{ content }}
 	</div>
 	<div class="col-md-3">
-		<h6>分类</h6>
+		<h5>分类</h5>
 		<ul class="list-unstyled">
 			{% for category in site.categories %}
 			<li><a href="/categories#{{category | first}}">{{category | first}} ({{category | last | size }})</a></li>
