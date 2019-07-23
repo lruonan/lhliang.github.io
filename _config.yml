@@ -93,7 +93,7 @@ addons:
   comments:
     provider: disqus
     disqus:
-      short_name: hongliang
+      short_name: lhliang
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
