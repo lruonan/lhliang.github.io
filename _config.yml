@@ -112,3 +112,4 @@ addons:
   tags_uri : /blog/tags
 
 
+theme: jekyll-theme-cayman
