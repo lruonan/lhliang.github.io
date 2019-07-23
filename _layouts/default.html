@@ -35,8 +35,9 @@
       <nav class="collapse navbar-collapse header-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           {% if page.navigation %}<li><a href="/">最新文章</a></li>{% else %}<li class="active"><a href="/">最新文章</a></li>{% endif%}
-          {% if page.navigation == "Archives" %}<li class="active"><a href="/archives">文章列表</a></li>{% else %}<li><a href="/archives">文章列表</a></li>{% endif %}
-          {% if page.navigation == "About" %}<li class="active"><a href="/about">关于站长</a></li>{% else %}<li><a href="/about">关于站长</a></li>{% endif %}
+          {% if page.navigation == "archives" %}<li class="active"><a href="/archives">文章列表</a></li>{% else %}<li><a href="/archives">文章列表</a></li>{% endif %}
+          {% if page.navigation == "tags" %}<li class="active"><a href="/tags">标签云</a></li>{% else %}<li><a href="/tags">标签云</a></li>{% endif %}
+          {% if page.navigation == "about" %}<li class="active"><a href="/about">关于站长</a></li>{% else %}<li><a href="/about">关于站长</a></li>{% endif %}
           <li><a href="https://lhliang.com">联系站长</a></li>
         </ul>
       </nav>
