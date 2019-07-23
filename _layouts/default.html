@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
   <meta name="author" content="{{ site.author.name }}" />
   {% if page.title %}<meta name="title" content="{{ page.title }}" />{% endif %}
   {% if page.tags %}<meta name="keywords" content="{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% endif %}
@@ -35,7 +36,7 @@
         <ul class="nav navbar-nav navbar-right">
           {% if page.navigation %}<li><a href="/">最新文章</a></li>{% else %}<li class="active"><a href="/">最新文章</a></li>{% endif%}
 	  {% if page.navigation == "Archives" %}<li class="active"><a href="/archives">文章列表</a></li>{% else %}<li><a href="/archives">文章列表</a></li>{% endif %}
-	  {% if page.navigation == "About" %}<li class="active"><a href="/about">关于我们</a></li>{% else %}<li><a href="/about">关于我们</a></li>{% endif %}
+	  {% if page.navigation == "About" %}<li class="active"><a href="/about">关于站长</a></li>{% else %}<li><a href="/about">关于站长</a></li>{% endif %}
           <li><a href="https://lhliang.com">联系站长</a></li>
         </ul>
       </nav>
