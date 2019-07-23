@@ -46,8 +46,8 @@ body,p,input,button,select,textarea {
 .post-info {
 	color: #666;
 	font-size: 87%;
-	line-height: 1.6em;
-	margin-bottom: 2em;
+	line-height: 1em;
+	margin-bottom: 1em;
 }
 .post-info a {
 	color: #666;
