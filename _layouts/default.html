@@ -43,28 +43,25 @@
       </nav>
     </div>
   </div>
-<div class="container">
-  {{content}}
-</div>
-</div>
-</div>
-<div class="footer">
-  <p>
-    <span>&copy; 2018-{{ site.time | date: "%Y" }} {{ site.domain.name }}</span>
-  </p>
-</div>
-<script type="text/javascript" charset="utf-8" src='/assets/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <div class="container">
+{{content}}
+  <div class="footer">
+    <p>
+      <span>&copy; 2018-{{ site.time | date: "%Y" }} {{ site.domain.name }}</span>
+    </p>
+  </div>
+  <script type="text/javascript" charset="utf-8" src='/assets/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 {% comment %}
 {% include comments_count %}
 {% endcomment %}
-<script>
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?25ec6540d8e055225505a8698e969448";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-  })();
-</script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?25ec6540d8e055225505a8698e969448";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </body>
 </html>
