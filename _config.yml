@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This blog is mainly about my learning experience, 
   including java, python, go, linux and maybe something else.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lhliang.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.lhliang.com" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  liuhliu
 
 # Build settings
@@ -73,8 +73,8 @@ sass:
 # so be sure to set them if your theme uses them.
 #
 domain:
-  name: lhliang.com
-  url: https://lhliang.com
+  name: blog.lhliang.com
+  url: https://blog.lhliang.com
 
 context: /
 
