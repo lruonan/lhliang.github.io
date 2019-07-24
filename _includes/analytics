@@ -1,4 +1,4 @@
-{% if site.settings.analytics.provider and page.analytics != false %}
+{% if site.settings.analytics.provider %}
 <script>
 var _hmt = _hmt || [];
 (function() {
